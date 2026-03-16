@@ -4,12 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Omar Molina Espinoza</title>
 </head>
 
 <body>
-    <h1>Hello, Im Omar</h1>
-    <p>Im learning web development.</p>
+
+    <header>
+        <nav>
+            <span class="logo">Omar Molina</span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Hi, I'm Omar</h1>
+        <p>Web developer in training based in Hermosillo, Mexico.</p>
+        <p>I love coding, drawing, and building things from scratch.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3>Contact</h3>
+        <p>Find me on <a href="https://github.com/omarmolina-dev">GitHub</a></p>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <h4>Weather App</h4>
+                <p>A weather app built with HTML, CSS and JS.</p>
+                <a href="#">View on GitHub</a>
+            </div>
+            <div class="card">
+                <h4>To Do List</h4>
+                <p>A task manager built with HTML, CSS and JS.</p>
+                <a href="#">View on GitHub</a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
