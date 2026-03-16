@@ -93,7 +93,7 @@ nav ul a {
 
 #projects {
     padding: 60px 40px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
 }
 
 #projects h2 {
@@ -107,24 +107,25 @@ nav ul a {
 }
 
 .card {
-    background-color: #f5f5f5;
+    background-color: #E8650A;
     padding: 24px;
     border-radius: 8px;
     width: 300px;
 }
 
 .card h4 {
-    font-size: 20px;
+    color: #000000;
+    font-size: 25px;
     margin-bottom: 12px;
 }
 
 .card p {
-    color: #666666;
-    margin-bottom: 16px;
+    color: #000000;
+    margin-bottom: 18px;
 }
 
 .card a {
-    color: #111111;
+    color: #160672;
     font-weight: bold;
     text-decoration: none;
 }
