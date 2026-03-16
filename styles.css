@@ -5,6 +5,7 @@
 }
 
 body {
+    padding-top: 90px;
     font-family: Arial, sans-serif;
     color: #333333;
     background-color: #ffffff;
@@ -131,4 +132,20 @@ nav ul a {
     color: #160672;
     font-weight: bold;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .projects-grid{
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
