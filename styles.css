@@ -58,6 +58,7 @@ nav ul a {
 }
 
 .btn {
+    transition: background-color 0.3s;
     display: inline-block;
     padding: 12px 24px;
     background-color: #E8650A;
@@ -67,6 +68,11 @@ nav ul a {
     color: #000000;
     font-weight: bold;
 }
+
+.btn:hover {
+    color: #ffffff;
+}
+
 #skills {
     padding: 60px 40px;
     background-color: #f5f5f5;
@@ -121,10 +127,15 @@ nav ul a {
 }
 
 .card {
+    transition: background-color 0.3s;
     background-color: #E8650A;
     padding: 24px;
     border-radius: 8px;
     width: 300px;
+}
+
+.card:hover {
+    background-color: #000000;
 }
 
 .card h4 {
@@ -132,11 +143,21 @@ nav ul a {
     font-size: 25px;
     margin-bottom: 12px;
 }
+.card:hover h4 {
+    color: white;
+}
+
 
 .card p {
     color: #000000;
     margin-bottom: 18px;
 }
+
+
+.card:hover p {
+    color: #E8650A;
+}
+
 
 .card a {
     color: #160672;
@@ -144,14 +165,24 @@ nav ul a {
     text-decoration: none;
 }
 
+.card:hover a {
+    color: #E8650A;
+}
+
+.card h4,
+.card p,
+.card a {
+    transition: color 0.8s;
+}
+
 @media (max-width: 768px) {
-    nav{
+    nav {
         flex-direction: column;
         gap: 16px;
         align-items: flex-start;
     }
 
-    .projects-grid{
+    .projects-grid {
         flex-direction: column;
     }
 
