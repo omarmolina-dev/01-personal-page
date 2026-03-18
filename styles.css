@@ -111,6 +111,51 @@ nav ul a {
     font-weight: bold;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    margin-top: 24px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-form textarea{
+    height: 120px;
+    resize: none;
+}
+
+#contact-form button{
+    padding: 12px 24px;
+    background-color: #E8650A;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+#contact-form button:hover{
+    background-color: #bf5008;
+}
+
+#form-response{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #E8650A;
+    font-weight: bold;
+}
+
 #projects {
     padding: 60px 40px;
     background-color: #f5f5f5;
@@ -174,6 +219,8 @@ nav ul a {
 .card a {
     transition: color 0.8s;
 }
+
+
 
 @media (max-width: 768px) {
     nav {

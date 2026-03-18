@@ -8,6 +8,7 @@
     <title>Omar Molina Espinoza</title>
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <header>
@@ -41,6 +42,14 @@
     <section id="contact">
         <h3>Contact</h3>
         <p>Find me on <a href="https://github.com/omarmolina-dev">GitHub</a></p>
+
+        <form id="contact-form" action="https://formspree.io/f/mjgapnrr" method="POST">
+            <input type="text" id="input-name" name="name" placeholder="Your name" />
+            <textarea id="input-message" name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send message</button>
+        </form>
+
+        <p id="form-response"></p>
     </section>
 
 
@@ -60,7 +69,6 @@
         </div>
     </section>
 
-    <button id="btn-sal">Click me</button>
 
 </body>
 
