@@ -1,4 +1,9 @@
-const name = "Omar";
-const age = 22;
+const button = document.querySelector("#btn-sal");
 
-console.log(`Hello, my name Is ${name} and im ${age} years old.`);
+button.addEventListener("click", function() {
+    const titulo = document.querySelector("h1");
+    titulo.style.color = "#E8650A";
+    titulo.textContent = "You clicked me!";
+    
+});
+
